@@ -1,0 +1,6 @@
+an other way to create your secret file, just from terminal
+
+kubectl create secret docker-registry my-registry-key-two \
+--docker-server=https://067969189082.dkr.ecr.eu-west-3.amazonaws.com
+--docker-username=aws
+--docker-password= xxxxxxxxxterminal: aws ecr get-login-password xxxxxxxxxx
