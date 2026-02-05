@@ -1,0 +1,6 @@
+# Ignore log files and system files
+/USING_helm_chart/onlineShop-microservices/onlineShop-kubeconfig.yaml
+
+*.log
+.DS_Store
+node_modules/
